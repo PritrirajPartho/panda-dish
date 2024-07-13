@@ -5,8 +5,8 @@ const ShowDishes = (props) => {
 
     return (
     <section>
-        <div id="dishes-div">
-            <h1>{dish.name}</h1>
+        <div id="dish-div">
+            <h1>{dish.category}</h1>
         </div>
     </section>  
     );

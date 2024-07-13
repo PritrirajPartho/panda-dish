@@ -19,11 +19,12 @@ const GetDishes = () => {
         setTab(tabNuber);
     }
 
+    // filter data or dishes here
     const generallDishes = dishes.filter(dishbycategory => dishbycategory.category === 'Generall');
     const popularDishes = dishes.filter(dishbycategory => dishbycategory.category === 'Popular');
     const soupDishes =  dishes.filter(dishbycategory => dishbycategory.category === 'Soup');
 
-    // continue a condition
+    // continue a condition for data showing
     const data = tab === 1 ? generallDishes : tab === 2 ? popularDishes : tab === 3 ? soupDishes : null ;
 
 
@@ -37,9 +38,15 @@ const GetDishes = () => {
                 <button onClick={ ()=> activeTab(3)}   style={{borderBottom: tab === 3 ? "1px solid red" : ""}}>Soup&amp;Sauce</button>
             </div>
          </div>
-         
+
          {/* Show data as well as */}
-         {dishes.map(dish=> <ShowDishes key={dish.serial} dish={dish}></ShowDishes>)}
+
+        <div className='dishes'>
+           {
+            data && data.map(dish => <ShowDishes key={dish.serial} dish={dish}></ShowDishes>)
+           } 
+        </div>
+
     </div>
     );
 };

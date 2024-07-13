@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <div className='ml-8 text-2xl'>
             <GetDishes></GetDishes>
-            <Attraction></Attraction>
         </div>
     );
 };
