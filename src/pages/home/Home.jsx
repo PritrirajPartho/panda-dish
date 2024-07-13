@@ -1,10 +1,11 @@
 import React from 'react';
 import Attraction from '../components/Attraction/Attraction';
+import GetDishes from '../components/Dishes/GetDishes';
 
 const Home = () => {
     return (
         <div className='ml-8 text-2xl'>
-            ok, home is done.
+            <GetDishes></GetDishes>
             <Attraction></Attraction>
         </div>
     );
