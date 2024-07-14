@@ -30,23 +30,25 @@ const GetDishes = () => {
 
     return (
     <div>
-         <h1 className='mt-20  mb-10 text-center'>Our Dishes</h1>
-         <div className='flex justify-center text-xl'>
-            <div className='border-2 border-black-200 flex justify-between w-[55%]'>
-                <button onClick={ ()=> activeTab(1)}   style={{borderBottom: tab === 1 ? "1px solid red" : ""}}>Generall</button>
-                <button onClick={ ()=> activeTab(2)}   style={{borderBottom: tab === 2 ? "1px solid red" : ""}}>Popular</button>
-                <button onClick={ ()=> activeTab(3)}   style={{borderBottom: tab === 3 ? "1px solid red" : ""}}>Soup&amp;Sauce</button>
+       <h1 className='mt-20  mb-10 text-center'>Our Dishes</h1>
+
+       <div className='bg-orange-50'>
+            <div className='flex justify-center text-xl'>
+                <div className='border-2 border-black-200 flex justify-between w-[55%] mt-10'>
+                    <button onClick={ ()=> activeTab(1)}   style={{borderBottom: tab === 1 ? "1px solid red" : ""}}>Generall</button>
+                    <button onClick={ ()=> activeTab(2)}   style={{borderBottom: tab === 2 ? "1px solid red" : ""}}>Popular</button>
+                    <button onClick={ ()=> activeTab(3)}   style={{borderBottom: tab === 3 ? "1px solid red" : ""}}>Soup&amp;Sauce</button>
+                </div>
             </div>
-         </div>
 
-         {/* Show data as well as */}
+            {/* Show data as well as */}
 
-        <div className='dishes'>
-           {
-            data && data.map(dish => <ShowDishes key={dish.serial} dish={dish}></ShowDishes>)
-           } 
-        </div>
-
+            <div className='dishes mt-16 grid grid-cols-1  gap-4 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4 text-sm justify-center'>
+                {
+                    data && data.map(dish => <ShowDishes key={dish.serial} dish={dish}></ShowDishes>)
+                } 
+            </div>
+       </div>  
     </div>
     );
 };

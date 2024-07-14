@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "node_modules/flowbite-react/lib/esm/**/*.js"
   ],
   theme: {
     fontSize: {
@@ -25,14 +26,16 @@ export default {
         white: '#fafafa',
     },
     screens: {
-      'mobile': '400px',
+      'sm': '400px',
       // => @media (min-width: 400px) { ... }
-      'tablet': '768px',
+      'md': '768px',
       // => @media (min-width: 768px) { ... }
-      'desktop': '992px',
+      'lg': '992px',
       // => @media (min-width: 992px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
   }
 }

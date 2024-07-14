@@ -1,12 +1,15 @@
 import React from 'react';
 
 const ShowDishes = (props) => {
-    let dish = props.dish;
-
+    const{serial, category, name, description, img, price, rate, stock} = props.dish;
+    
     return (
     <section>
-        <div id="dish-div">
-            <h1>{dish.category}</h1>
+        <div id="dish-div" className='place-items-center bg-white'>
+           <div>
+              <img className='w-2/3 h-28' src={img} alt="" />
+           </div>
+
         </div>
     </section>  
     );
