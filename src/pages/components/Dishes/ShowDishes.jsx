@@ -10,15 +10,15 @@ const ShowDishes = (props) => {
 
     
     return (
-    <section>
-        <div className='flex  flex-col  bg-white'>
+    <section className='card-section mb-16 hover:scale-105 duration-500'>
+        <div className='flex flex-col bg-white'>
            <div className='relative'>
               <div className='z-0'>
-                 <img className='img-single mix-blend-lighten object-cover min-w-full h-[20vh]' src={img} alt="dish-img" />
+                 <img className='img-single  object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
-              <p className='dish-stock'>{stock}</p>
+              <p className='dish-stock stock'>{stock}</p>
            </div>
-           <div> 
+           <div className='card-hover-structure pb-8'> 
                <div className='flex justify-center mt-8 text-[16px]'>
                   <Rating
                      placeholderRating={rate}
