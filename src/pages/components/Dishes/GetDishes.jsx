@@ -43,7 +43,7 @@ const GetDishes = () => {
 
             {/* Show data as well as */}
 
-            <div className='dishes mt-16 grid grid-cols-1  gap-4 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4 text-sm justify-center'>
+            <div className='responsive-grid-dishes'>
                 {
                     data && data.map(dish => <ShowDishes key={dish.serial} dish={dish}></ShowDishes>)
                 } 

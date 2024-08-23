@@ -12,7 +12,7 @@ const Header = () => {
       </nav>
     </section>
     {/* this is video attractor */}
-    <div className="videowrapper">
+    <div className="videowrapper  box-border m-0 p-0">
       <div className="fullscreen-div">
         <video className="bg-video relative" autoPlay loop muted>
             <source  src={video} type='video/mp4'/>

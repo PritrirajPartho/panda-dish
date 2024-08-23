@@ -1,10 +1,20 @@
 import React from 'react';
+import logo from "../../../../public/logo.png";
 
 const Footer = () => {
     return (
-        <div>
-            <h1 className='text-green-500 text-4xl'>this is Footer</h1>
-        </div>
+    <section>
+        <footer className="footer bg-neutral text-neutral-content p-10">
+        <aside>
+            <img src={logo}/>
+            <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+            </p>
+        </aside>
+        </footer>
+    </section>
     );
 };
 
