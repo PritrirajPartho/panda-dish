@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../../components/Dishes/ShowDishes.css';
 import Rating from 'react-rating';
 import { FaRegStar, FaStar } from 'react-icons/fa6';
+import { FaEye, FaHeart, FaShoppingCart } from 'react-icons/fa';
 
 
 
@@ -12,12 +13,20 @@ const ShowDishes = (props) => {
     return (
     <section className='card-section mb-16 hover:scale-105 duration-500'>
         <div className='flex flex-col bg-white'>
-           <div className='relative'>
+           <div className='relative card-img'>
               <div className='z-0'>
                  <img className='img-single  object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
+
               <p className='dish-stock stock'>{stock}</p>
+
+              <div className='hide-element grid grid-cols-3  absolute left-14 top-24'>
+                  <p className='mr-6 background icon-effect'><FaEye></FaEye></p>
+                  <p className='mr-6 background  icon-effect'><FaShoppingCart></FaShoppingCart></p>
+                  <p className='background text-red-500 hover:text-white icon-effect'><FaHeart></FaHeart></p>
+              </div>
            </div>
+
            <div className='card-hover-structure pb-8'> 
                <div className='flex justify-center mt-8 text-[16px]'>
                   <Rating
@@ -28,7 +37,6 @@ const ShowDishes = (props) => {
                      fullSymbol={<FaStar></FaStar>}
                      color
                   />
-
                   <span className='ml-2'>&#40;{rating}&#41;</span>
                </div>
 
