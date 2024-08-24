@@ -29,8 +29,8 @@ const GetDishes = () => {
 
 
     return (
-    <div>
-       <h1 className='mt-20  mb-10 text-center'>Our Dishes</h1>
+    <div className='mt-[100px]'>
+       <h1 className='mt-8  mb-4  text-2xl text-center'>Our Dishes</h1>
 
        <div className='bg-orange-50'>
             <div className='flex justify-center text-xl'>

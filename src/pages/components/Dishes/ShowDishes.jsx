@@ -15,7 +15,7 @@ const ShowDishes = (props) => {
         <div className='flex flex-col bg-white'>
            <div className='relative card-img'>
               <div className='z-0'>
-                 <img className='img-single  object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
+                 <img className=' object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
 
               <p className='dish-stock stock'>{stock}</p>
