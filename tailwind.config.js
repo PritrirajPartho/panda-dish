@@ -33,6 +33,10 @@ export default {
       'lg': '992px',
       // => @media (min-width: 992px) { ... }
     },
+    dropShadow: {
+      'xl': '0 15px 15px #fdba74',
+      '2xl': '0 35px 35px #FA760A'     
+    }
   },
   plugins: [
     require('flowbite/plugin')

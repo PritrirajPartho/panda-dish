@@ -27,6 +27,7 @@
     /* transition: all .8s ease; */
 }
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -56,6 +57,9 @@
     }
     .icon-effect{
         @apply hover:scale-110 duration-700 hover:bg-orange-500 hover:ring-white;
+    }
+    .element-alignment{
+        @apply relative top-[50%] translate-y-[-50%] px-12
     }
 
 }
