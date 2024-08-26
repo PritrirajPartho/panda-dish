@@ -18,7 +18,7 @@ const ShowDishes = (props) => {
                  <img className=' object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
 
-              <p className='dish-stock stock'>{stock}</p>
+              <p className='dish-stock stock font-poppins '>{stock}</p>
 
               <div className='hide-element grid grid-cols-3  absolute transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2'>
                   <p className='mr-6 background icon-effect'><FaEye></FaEye></p>
@@ -40,8 +40,8 @@ const ShowDishes = (props) => {
                   <span className='ml-2'>&#40;{rating}&#41;</span>
                </div>
 
-               <div>
-                  <h1 className='text-center text-[16px] font-bold'>{name}</h1>
+               <div className='font-agdasima'>
+                  <h1 className='text-center text-base font-bold'>{name}</h1>
                   <div className='flex justify-center'>
                      <p className='text-center mt-6  mr-4 text-[20px] font-bold'><span>$</span> <span>{price}</span></p>
                      <p className='text-center mt-6 text-lg line-through'><span>$</span>{oldprice}</p>

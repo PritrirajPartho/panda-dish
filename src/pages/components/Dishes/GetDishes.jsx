@@ -30,11 +30,11 @@ const GetDishes = () => {
 
     return (
     <div className='mt-[100px]'>
-       <h1 className='mt-8  mb-4  text-2xl text-center'>Our Dishes</h1>
+       <h1 className='mt-8  mb-4  text-2xl text-center font-poppins'>Our Dishes</h1>
 
        <div className='bg-orange-50'>
             <div className='flex justify-center text-xl'>
-                <div className='border-2 border-black-200 flex justify-between w-[55%] mt-10'>
+                <div className='font-poppins border-2 border-black-200 flex justify-between w-[55%] mt-10'>
                     <button onClick={ ()=> activeTab(1)}   style={{borderBottom: tab === 1 ? "1px solid red" : ""}}>Generall</button>
                     <button onClick={ ()=> activeTab(2)}   style={{borderBottom: tab === 2 ? "1px solid red" : ""}}>Popular</button>
                     <button onClick={ ()=> activeTab(3)}   style={{borderBottom: tab === 3 ? "1px solid red" : ""}}>Soup&amp;Sauce</button>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -19,12 +21,11 @@
 
 .hide-element{
     visibility: hidden;
-    /* transform: translate(-50%); */
+    font-size: 1vw;
 }
 
 .card-section:hover .hide-element{
     visibility: visible;
-    /* transition: all .8s ease; */
 }
 
 
@@ -50,13 +51,13 @@
         @apply mt-[50px] px-16 grid grid-cols-1  gap-4 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4 text-sm justify-center;
     }
     .dish-stock {
-        @apply absolute top-3 right-4 z-20 text-white text-center text-[12px] bg-orange-500 px-2 py-1 rounded-[15px_50px] w-[80px] h-[30px];
+        @apply absolute top-3 right-4 z-20 text-white text-center text-[15px] bg-orange-500 px-2 py-1 rounded-[15px_50px] w-[80px] h-[30px];
     }
     .background{
         @apply  bg-white ring-4 ring-orange-500 w-10 h-10 flex justify-center items-center rounded-full;
     }
     .icon-effect{
-        @apply hover:scale-110 duration-700 hover:bg-orange-500 hover:ring-white;
+        @apply hover:scale-110 duration-300 hover:bg-orange-500 hover:ring-white;
     }
     .element-alignment{
         @apply relative top-[50%] translate-y-[-50%] px-12
