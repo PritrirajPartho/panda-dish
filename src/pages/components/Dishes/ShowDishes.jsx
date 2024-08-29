@@ -41,7 +41,7 @@ const ShowDishes = (props) => {
                </div>
 
                <div className='font-agdasima'>
-                  <h1 className='text-center text-base font-bold'>{name}</h1>
+                  <h1 className='text-center text-xl font-bold'>{name}</h1>
                   <div className='flex justify-center'>
                      <p className='text-center mt-6  mr-4 text-[20px] font-bold'><span>$</span> <span>{price}</span></p>
                      <p className='text-center mt-6 text-lg line-through'><span>$</span>{oldprice}</p>

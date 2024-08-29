@@ -17,14 +17,16 @@ export default {
         white: '#fafafa',
        },
        fontSize: {
-        sm: '0.5vw',
+        xs: '0.2',
+        sm: '0.3vw',
+        base: '0.5vw',
         lg: '1vw',
-        base: '1.5vw',
-        xl: '2vw',
-        '2xl': '3vw',
-        '3xl': '4vw',
-        '4xl': '5vw',
-        '5xl': '6vw',
+        xl: '1.5vw',
+        '2xl': '2vw',
+        '3xl': '3vw',
+        '4xl': '4vw',
+        '5xl': '5vw',
+        '6xl': '6vw',
       },
       screens: {
         'sm': '400px',
@@ -42,7 +44,7 @@ export default {
       garamond: ['EB Garamond', 'serif'],
       poppins:  ['Poppins', 'sans-serif'],
       agdasima: ['Agdasima','sans-serif'],
-      agufina: ["Aguafina Script"," cursive"]
+      agufina:  ['Aguafina Script','cursive']
     }
   },
 
