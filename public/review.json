@@ -1,0 +1,68 @@
+[
+      {
+        "id": 1,
+        "name": "John Doe",
+        "rating": 4.5,
+        "experience": "Great experience!",
+        "text": "Panda-Dish exceeded my expectations! The food was delicious, and the service was top-notch. I'll definitely be back!",
+        "img": "https://example.com/images/john_doe.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "rating": 3.0,
+        "experience": "Good food, but slow service",
+        "text": "The food at Panda-Dish was good, but the service was slower than I expected. Hopefully, it was just an off day.",
+        "img": "https://example.com/images/jane_smith.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Michael Brown",
+        "rating": 5.0,
+        "experience": "Best meal ever!",
+        "text": "Panda-Dish delivered one of the best meals I've had in ages. The flavors were spot on, and everything was cooked to perfection.",
+        "img": "https://example.com/images/michael_brown.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "rating": 4.0,
+        "experience": "Lovely atmosphere",
+        "text": "Panda-Dish offers a lovely dining atmosphere, perfect for a special night out. The food was good, though a bit pricey.",
+        "img": "https://example.com/images/emily_davis.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Chris Johnson",
+        "rating": 2.5,
+        "experience": "Disappointed",
+        "text": "I was a bit disappointed with my experience at Panda-Dish. The food was average, and the portions were smaller than expected.",
+        "img": "https://example.com/images/chris_johnson.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Samantha Lee",
+        "rating": 5.0,
+        "experience": "Absolutely amazing!",
+        "text": "Panda-Dish was absolutely amazing! From the food to the service, everything was perfect. Can't wait to return!",
+        "img": "https://example.com/images/samantha_lee.jpg"
+      },
+      {
+        "id": 7,
+        "name": "David Wilson",
+        "rating": 3.5,
+        "experience": "Good, but not great",
+        "text": "Panda-Dish was good, but I expected more based on the reviews. The food was decent, and the service was friendly.",
+        "img": "https://example.com/images/david_wilson.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Laura Martinez",
+        "rating": 4.8,
+        "experience": "A hidden gem!",
+        "text": "Panda-Dish is a hidden gem! The food was fantastic, and the staff was incredibly attentive. Highly recommend!",
+        "img": "https://example.com/images/laura_martinez.jpg"
+      }
+]
+
+  

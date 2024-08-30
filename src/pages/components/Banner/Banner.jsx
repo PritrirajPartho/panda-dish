@@ -4,7 +4,7 @@ import video from'../../../../public/background-video.mp4';
 
 const Banner = () => {
     return (
-    <section >
+    <section className='width-control-container'>
         <div className="videowrapper">
             <div className="fullscreen-div relative">
             <video className="bg-video relative" autoPlay loop muted>

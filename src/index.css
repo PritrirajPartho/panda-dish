@@ -44,6 +44,9 @@
 
 /* Please write here your custom components here */
 @layer components{
+    .width-control-container{
+        @apply max-w-[1000px] lg:max-w-[1200px] mx-auto
+    }
     .bg-video{
         @apply fixed;
     }
