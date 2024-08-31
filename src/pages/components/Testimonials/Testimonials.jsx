@@ -1,11 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Slider from "react-slick";
+import ShowTestimonials from './ShowTestimonials';
+
+const testimonials_api = '../../../../public/review.json';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 
 const Testimonilas = () => {
+
+    const[testimonials, setTestimonials] = useState([])
+
+    // load testimonials or review data
+    useEffect(() => {
+        fetch(testimonials_api)
+        .then(res => res.json())
+        .then(data => setTestimonials(data))
+        .catch(err => console.log(err))
+    }, []);
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 3000,
+      autoplaySpeed: 3000,
+      cssEase: "linear"
+    };
+
     return (
-        <div>
-            <h1>Testimonils</h1>
-        </div>
-    );
+    <section className='width-control-container'>
+      <h1 className='text-center mb-16 text-2xl font-poppins font-bold'>Testimonials</h1>
+      <Slider {...settings}>
+          {
+            testimonials.map(testimonial => 
+              <ShowTestimonials key={testimonial.id} testimonial={testimonial}>
+              </ShowTestimonials>
+            )
+          }
+      </Slider>
+    </section>
+      );
 };
 
 export default Testimonilas;
