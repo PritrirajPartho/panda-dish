@@ -4,12 +4,11 @@ import GetDishes from '../components/Dishes/GetDishes';
 import Banner from '../components/Banner/Banner';
 import MobileApp from '../components/MobileApp/MobileApp';
 import Testimonilas from '../components/Testimonials/Testimonials';
-import { Tooltip } from 'react-tooltip';
 import Tooltips from '../components/Tooltip/Tooltips';
 
 const Home = () => {
     return (
-        <div className='main-container'>
+        <div>
             <Banner></Banner>
             <GetDishes></GetDishes>
             <Testimonilas></Testimonilas>

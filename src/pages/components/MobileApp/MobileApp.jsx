@@ -5,8 +5,8 @@ import googleImg from '../../../../public/play-store.webp';
 
 const MobileApp = () => {
     return (
-        <section className='width-control-container grid grid-cols-2 lg:mt-24 lg:mb-40 border-2 border-red-600'>
-            <div className='mt-6'>
+        <section className='width-control-container mobileapp-container'>
+            <div className='lg:mt-16'>
                 <h1 className='text-2xl  text-center font-bold font-poppins'>Make your Life easier with our mobile app</h1>
                 <p className='text-xl mt-4 text-center font-agdasima'>Food is our common ground, a universal experience.So, try Panda-dish on the mobile app.</p>
                 <div className=' mt-6 flex justify-center gap-12'>

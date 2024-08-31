@@ -65,6 +65,9 @@
     .element-alignment{
         @apply relative top-[50%] translate-y-[-50%] px-12
     }
+    .mobileapp-container{
+        @apply grid grid-cols-2  mt-16 lg:mt-24 lg:mb-40 ;
+    }
 
 }
 
