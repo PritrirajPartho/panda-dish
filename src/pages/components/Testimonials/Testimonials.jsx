@@ -24,9 +24,9 @@ const Testimonilas = () => {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       speed: 3000,
       autoplaySpeed: 3000,
       cssEase: "linear"

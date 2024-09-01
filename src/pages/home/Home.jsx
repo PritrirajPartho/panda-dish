@@ -13,7 +13,6 @@ const Home = () => {
             <GetDishes></GetDishes>
             <Testimonilas></Testimonilas>
             <MobileApp></MobileApp>
-            <Tooltips></Tooltips>
         </div>
     );
 };
