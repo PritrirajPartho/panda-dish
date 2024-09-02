@@ -6,7 +6,7 @@
         "rating": 4.5,
         "experience": "Great experience!",
         "text": "Panda-Dish exceeded my expectations! The food was delicious, and the service was top-notch. I'll definitely be back!",
-        "img": "../src/assets/img/person-one.jfif"
+        "img": "../src/assets/img/person-five.jfif"
       },
       {
         "id": 2,
@@ -46,7 +46,7 @@
         "rating": 5.0,
         "experience": "Absolutely amazing!",
         "text": "Panda-Dish was absolutely amazing! From the food to the service, everything was perfect. Can't wait to return!",
-        "img": "../src/assets/img/person-six.jfif"
+        "img": "../src/assets/img/person-three.jfif"
       },
       {
         "id": 7,

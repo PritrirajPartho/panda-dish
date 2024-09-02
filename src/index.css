@@ -68,10 +68,16 @@
     .mobileapp-container{
         @apply grid grid-cols-2  mt-16 lg:mt-24 lg:mb-40 ;
     }
-    /* .slider-img{
-        @apply w-[200px] h-[250px]
-    } */
-
+    .testimonial-container{
+        @apply  flex flex-row justify-center items-center gap-6 ;
+    }
+    .review-img-div{
+        @apply  overflow-hidden w-[200px] h-[250px];
+    }
+    .review-img-div img{
+        @apply w-full h-full  object-cover object-top;
+    }
+ 
 }
 
 /* You can make your own utilities class here. Let's go... */

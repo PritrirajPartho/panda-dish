@@ -26,7 +26,7 @@ const Testimonilas = () => {
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       speed: 3000,
       autoplaySpeed: 3000,
       cssEase: "linear"
@@ -35,14 +35,16 @@ const Testimonilas = () => {
     return (
     <section className='width-control-container'>
       <h1 className='text-center mb-16 text-2xl font-poppins font-bold'>Testimonials</h1>
-      <Slider {...settings}>
-          {
-            testimonials.map(testimonial => 
-              <ShowTestimonials key={testimonial.id} testimonial={testimonial}>
-              </ShowTestimonials>
-            )
-          }
-      </Slider>
+      <div>
+        <Slider {...settings} >
+            {
+              testimonials.map(testimonial => 
+                <ShowTestimonials  key={testimonial.id} testimonial={testimonial}>
+                </ShowTestimonials>
+              )
+            }
+        </Slider>
+      </div>
     </section>
       );
 };

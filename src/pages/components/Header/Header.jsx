@@ -18,10 +18,10 @@ return (
 
           <nav>
              <div className='flex items-center'>
-              <Tooltips text="Show your saved foods">
+              <Tooltips text="Show your saved foods fff">
                  <p className='mr-14 cursor-pointer text-orange-500'><FaShoppingCart></FaShoppingCart></p>
               </Tooltips>
-              <Tooltips text="Your favourite foods">
+              <Tooltips text="Your favourite foods is fjdjfd ftjdmfd fdjfdf d">
                  <p className='cursor-pointer mr-14 text-red-500'><FaHeart></FaHeart></p>
               </Tooltips>
               <Tooltips text="This is User">
