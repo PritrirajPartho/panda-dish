@@ -22,7 +22,7 @@
         "rating": 5.0,
         "experience": "Best meal ever!",
         "text": "Panda-Dish delivered one of the best meals I've had in ages. The flavors were spot on, and everything was cooked to perfection.",
-        "img": "../src/assets/img/person-three.jfif"
+        "img": "../src/assets/img/person-four.jfif"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "rating": 4.0,
         "experience": "Lovely atmosphere",
         "text": "Panda-Dish offers a lovely dining atmosphere, perfect for a special night out. The food was good, though a bit pricey.",
-        "img": "../src/assets/img/person-four.jfif"
+        "img": "../src/assets/img/person-three.jfif"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "rating": 2.5,
         "experience": "Disappointed",
         "text": "I was a bit disappointed with my experience at Panda-Dish. The food was average, and the portions were smaller than expected.",
-        "img": "../src/assets/img/person-five.jfif"
+        "img": "../src/assets/img/person-nine.jfif"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "rating": 5.0,
         "experience": "Absolutely amazing!",
         "text": "Panda-Dish was absolutely amazing! From the food to the service, everything was perfect. Can't wait to return!",
-        "img": "../src/assets/img/person-three.jfif"
+        "img": "../src/assets/img/person-eight.jfif"
       },
       {
         "id": 7,
@@ -62,7 +62,7 @@
         "rating": 4.8,
         "experience": "A hidden gem!",
         "text": "Panda-Dish is a hidden gem! The food was fantastic, and the staff was incredibly attentive. Highly recommend!",
-        "img": "../src/assets/img/person-seven.jfif"
+        "img": "../src/assets/img/person-one.jfif"
       }
 ]
 
