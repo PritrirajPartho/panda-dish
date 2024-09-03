@@ -29,7 +29,7 @@ const GetDishes = () => {
 
 
     return (
-    <div className='mt-[100px]'>
+    <div className='mt-[100px] width-control-container'>
        <h1 className='mt-8  mb-4  text-3xl text-center font-poppins'>Our Dishes</h1>
 
        <div className='bg-orange-50'>

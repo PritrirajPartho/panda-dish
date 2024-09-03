@@ -33,8 +33,8 @@ const Testimonilas = () => {
     };
 
     return (
-    <section className='width-control-container'>
-      <h1 className='text-center mb-16 text-2xl font-poppins font-bold'>Testimonials</h1>
+    <section className='width-control-container mt-16'>
+      <h1 className='text-center mb-16 text-3xl font-poppins font-bold'>Testimonials//</h1>
       <div>
         <Slider {...settings} >
             {
