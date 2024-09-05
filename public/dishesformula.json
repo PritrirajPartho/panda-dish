@@ -1,0 +1,123 @@
+[
+      {
+        "id": "1",
+        "name": "Vegetable Soup",
+        "expression": "Comfort in a bowl, packed with fresh veggies.",
+        "text": "To make this comforting vegetable soup, start by sautéing chopped onions, garlic, and celery in a large pot until softened. Add diced carrots, potatoes, and tomatoes, followed by vegetable broth. Bring the mixture to a boil, then reduce the heat and let it simmer until the vegetables are tender. Finish by adding your favorite greens, like spinach or kale, and season with salt, pepper, and herbs. Simmer for another 10 minutes, then serve hot.",
+        "img": "https://i.ibb.co/R44Tt7p/vegetables-soup.jpg",
+        "viewer": 1200
+      },
+      {
+        "id": "2",
+        "name": "Hot Dog",
+        "expression": "Juicy sausage goodness in a soft bun.",
+        "text": "For the perfect hot dog, start by grilling or boiling your choice of sausage until it’s hot and juicy. Toast the buns lightly on the grill for added flavor. Place the sausage in the bun and add your favorite toppings—classic choices include ketchup, mustard, chopped onions, and relish. For an extra kick, try adding some sauerkraut or jalapeños. Serve immediately while the buns are warm and the sausage is juicy.",
+        "img": "https://i.ibb.co/74zxt06/hot-dog.jpg",
+        "viewer": 1500
+      },
+      {
+        "id": "3",
+        "name": "Grilled Steak",
+        "expression": "Smoky, juicy steak grilled to perfection.",
+        "text": "To prepare a perfectly grilled steak, start by seasoning the steak generously with salt, pepper, and your choice of herbs. Preheat your grill to high heat. Place the steak on the grill and cook for 3-4 minutes on each side for medium-rare, adjusting the time to your preferred doneness. Let the steak rest for a few minutes after grilling to allow the juices to redistribute. Slice and serve with a side of grilled vegetables or a fresh salad.",
+        "img": "https://i.ibb.co/F3Fjpb5/grilled-steak.jpg",
+        "viewer": 2000
+      },
+      {
+        "id": "4",
+        "name": "Caesar Salad",
+        "expression": "Crisp lettuce with creamy Caesar dressing.",
+        "text": "To make a classic Caesar Salad, start by preparing the dressing: whisk together garlic, anchovy paste, lemon juice, Dijon mustard, and Worcestershire sauce. Gradually add olive oil while whisking until the dressing is smooth and creamy. Toss fresh Romaine lettuce in the dressing, then top with croutons and grated Parmesan cheese. For added protein, grill some chicken breast and slice it over the salad. Serve immediately to maintain the crispness of the lettuce.",
+        "img": "https://i.ibb.co/pLPxjC6/caesar-salad.jpg",
+        "viewer": 1750
+      },
+      {
+        "id": "5",
+        "name": "Spaghetti Carbonara",
+        "expression": "Creamy pasta with smoky bacon.",
+        "text": "To create a delicious Spaghetti Carbonara, start by cooking spaghetti in a large pot of salted boiling water until al dente. While the pasta cooks, fry diced bacon or pancetta until crispy. In a separate bowl, whisk together eggs and grated Parmesan cheese. Drain the pasta, reserving some of the cooking water, and quickly toss it with the bacon, egg mixture, and a splash of the reserved water to create a creamy sauce. Serve immediately, garnished with more Parmesan and black pepper.",
+        "img": "https://i.ibb.co/2gWm1TW/carbonara.jpg",
+        "viewer": 2100
+      },
+      {
+        "id": "6",
+        "name": "Margherita Pizza",
+        "expression": "Classic pizza with fresh tomato and basil.",
+        "text": "To make an authentic Margherita Pizza, start by preparing the dough and letting it rise until doubled in size. Preheat your oven with a pizza stone inside to the highest temperature possible. Roll out the dough, spread a thin layer of tomato sauce over it, and top with slices of fresh mozzarella cheese. Bake on the pizza stone until the crust is golden and the cheese is bubbly. Remove from the oven and immediately add fresh basil leaves. Slice and serve hot.",
+        "img": "https://i.ibb.co/wCRHPvd/marghrita.jpg",
+        "viewer": 2500
+      },
+      {
+        "id": "7",
+        "name": "Tacos",
+        "expression": "Flavor-packed Mexican street food favorite.",
+        "text": "To prepare tacos, start by cooking your choice of seasoned meat—beef, chicken, or pork—in a hot skillet until fully cooked and flavorful. Warm soft tortillas on a griddle or directly over a flame. Fill each tortilla with the cooked meat, then add toppings like chopped onions, cilantro, salsa, and a squeeze of lime. For extra texture, add a handful of shredded lettuce or cheese. Serve immediately for the best taste and texture.",
+        "img": "https://i.ibb.co/gTb7yyy/tacos.jpg",
+        "viewer": 2700
+      },
+      {
+        "id": "8",
+        "name": "Chicken Curry",
+        "expression": "Rich and spicy curry with tender chicken.",
+        "text": "To make chicken curry, start by heating oil in a large pot and sautéing chopped onions until golden. Add garlic, ginger, and a mix of spices like turmeric, cumin, coriander, and chili powder. Cook for a minute until fragrant. Add diced chicken and cook until browned on all sides. Pour in tomatoes and coconut milk, then simmer until the chicken is fully cooked and the sauce thickens. Garnish with fresh cilantro and serve with rice or naan bread.",
+        "img": "https://i.ibb.co/7zssTLD/chicken-curry.jpg",
+        "viewer": 1800
+      },
+      {
+        "id": "9",
+        "name": "Sushi",
+        "expression": "Delicate Japanese rice and seafood rolls.",
+        "text": "To prepare sushi, begin by cooking sushi rice according to the package instructions, then season it with a mixture of rice vinegar, sugar, and salt. Place a sheet of nori on a bamboo mat, spread a thin layer of rice over the nori, and add fillings like fresh fish, cucumber, and avocado. Roll the sushi tightly using the bamboo mat, then slice into bite-sized pieces. Serve with soy sauce, wasabi, and pickled ginger for a traditional sushi experience.",
+        "img": "https://i.ibb.co/pjTW5Y5/sushi.jpg",
+        "viewer": 3000
+      },
+      {
+        "id": "10",
+        "name": "Pancakes",
+        "expression": "Fluffy breakfast favorite with syrup.",
+        "text": "To make fluffy pancakes, start by mixing flour, sugar, baking powder, and a pinch of salt in a bowl. In another bowl, whisk together milk, eggs, and melted butter. Combine the wet and dry ingredients until just blended—don’t overmix. Heat a griddle or non-stick pan over medium heat and pour batter onto it in small circles. Cook until bubbles form on the surface, then flip and cook until golden brown. Serve warm with butter and syrup.",
+        "img": "https://i.ibb.co/DDw7Sqn/pancakes.jpg",
+        "viewer": 2200
+      },
+      {
+        "id": "11",
+        "name": "Lasagna",
+        "expression": "Layered pasta with rich meat sauce and cheese.",
+        "text": "To make lasagna, start by preparing the meat sauce: brown ground beef in a pan, then add onions, garlic, and tomato sauce. Simmer until thickened. In a separate bowl, mix ricotta cheese with an egg and some grated Parmesan. Pre-cook lasagna noodles until al dente. In a baking dish, layer the noodles, meat sauce, ricotta mixture, and mozzarella cheese, repeating until the dish is full. Bake in the oven until the top is bubbly and golden brown. Let it rest before serving.",
+        "img": "https://i.ibb.co/cxLML6w/lasgna.jpg",
+        "viewer": 2400
+      },
+      {
+        "id": "12",
+        "name": "Fried Chicken",
+        "expression": "Crispy, golden, and juicy comfort food.",
+        "text": "To prepare fried chicken, start by marinating chicken pieces in buttermilk and spices for several hours. In a separate bowl, mix flour with salt, pepper, and additional spices. Dredge the marinated chicken in the flour mixture, ensuring each piece is fully coated. Heat oil in a deep fryer or large pot and fry the chicken until golden brown and crispy. Drain on paper towels to remove excess oil, then serve hot with your favorite dipping sauce.",
+        "img": "https://i.ibb.co/Hgx5Pvf/fried-chicken.jpg",
+        "viewer": 2800
+      },
+      {
+        "id": "13",
+        "name": "Burgers",
+        "expression": "Grilled beef patty in a soft bun with toppings.",
+        "text": "To make a classic burger, start by shaping ground beef into patties, seasoning them with salt and pepper. Preheat the grill to medium-high heat, then cook the patties for 3-5 minutes on each side, depending on your desired level of doneness. Toast the buns on the grill for extra flavor. Assemble the burgers by placing the patties in the buns and adding toppings like lettuce, tomato, cheese, and pickles. Serve hot with a side of fries.",
+        "img": "https://i.ibb.co/dLbxsZZ/burger.jpg",
+        "viewer": 2600
+      },
+      {
+        "id": "14",
+        "name": "Chocolate Cake",
+        "expression": "Rich and moist cake with chocolate frosting.",
+        "text": "To bake a chocolate cake, start by preheating the oven and preparing the cake pans by greasing and flouring them. Mix together the dry ingredients—flour, sugar, cocoa powder, baking powder, and baking soda. In another bowl, beat together eggs, milk, oil, and vanilla extract. Combine the wet and dry ingredients, then slowly add boiling water to create a smooth batter. Pour the batter into the prepared pans and bake until a toothpick inserted into the center comes out clean. Let the cakes cool before frosting with rich chocolate icing.",
+        "img": "https://i.ibb.co/yS0JxRH/chocolate-cake.jpg",
+        "viewer": 3100
+      },
+      {
+        "id": "15",
+        "name": "Fish and Chips",
+        "expression": "Crispy fried fish with golden fries.",
+        "text": "To prepare fish and chips, start by making the batter for the fish: whisk together flour, baking powder, salt, and a cold liquid like beer or sparkling water until smooth. Dip fish fillets in the batter, ensuring they are fully coated. Heat oil in a deep fryer or large pot and fry the fish until golden and crispy. For the chips, cut potatoes into thick slices and fry them until golden brown. Serve the fish and chips hot with a side of tartar sauce and a wedge of lemon.",
+        "img": "https://i.ibb.co/D9dDn2Y/fish-chips.jpg",
+        "viewer": 2900
+      }
+    ]
+  

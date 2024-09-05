@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ShowDishes from './ShowDishes';
 
-const dishes_api = '../../../../public/dishes.json';
+const dishes_api = '/public/dishes.json';
 
 const GetDishes = () => {
     const[dishes, setDishes] = useState([]);

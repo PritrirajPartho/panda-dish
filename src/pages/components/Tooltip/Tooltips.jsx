@@ -13,7 +13,7 @@ const Tooltips = ({text, children}) => {
         >
             {children}
 
-            <div className={`tooltip ${showTooltips ? "open" : ""}`}>
+            <div className={`tooltip min-w-[100px] ${showTooltips ? "open" : ""}`}>
                {text}
             </div>
         </div>

@@ -5,6 +5,7 @@ import Banner from '../components/Banner/Banner';
 import MobileApp from '../components/MobileApp/MobileApp';
 import Testimonilas from '../components/Testimonials/Testimonials';
 import Tooltips from '../components/Tooltip/Tooltips';
+import DishesFormula from '../components/DishesFormula/DishesFormula';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <GetDishes></GetDishes>
             <Testimonilas></Testimonilas>
             <MobileApp></MobileApp>
+            <DishesFormula></DishesFormula>
         </div>
     );
 };

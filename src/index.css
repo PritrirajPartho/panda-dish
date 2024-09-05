@@ -77,7 +77,12 @@
     .review-img-div img{
         @apply w-full h-full  object-cover object-top;
     }
- 
+    .formula-img-div{
+        @apply relative overflow-hidden w-full h-[250px];
+    }
+    .formula-img-div img{
+        @apply absolute top-0 w-full h-full  object-cover object-center hover:scale-125 duration-500;
+    }
 }
 
 /* You can make your own utilities class here. Let's go... */

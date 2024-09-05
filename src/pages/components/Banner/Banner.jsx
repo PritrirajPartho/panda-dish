@@ -1,5 +1,6 @@
 import React from 'react';
 import video from'../../../../public/background-video.mp4';
+// import video from'https://www.canva.com/design/DAGP3LV9d5U/HfyfKX3_i0DKW8ojttSZ5A/view?utm_content=DAGP3LV9d5U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview';
 
 
 const Banner = () => {
