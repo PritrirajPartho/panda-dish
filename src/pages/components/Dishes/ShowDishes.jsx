@@ -20,8 +20,8 @@ const ShowDishes = (props) => {
 
               <p className='dish-stock stock font-poppins '>{stock}</p>
 
-              <div className='hide-element grid grid-cols-3 gap-x-10 absolute transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2'>
-                  <p className=' background icon-effect'><FaEye></FaEye></p>
+              <div className='hide-element grid grid-cols-3 gap-4 absolute transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2'>
+                  <p className='background icon-effect'><FaEye></FaEye></p>
                   <p className=' background  icon-effect'><FaShoppingCart></FaShoppingCart></p>
                   <p className='background text-red-500 hover:text-white icon-effect'><FaHeart></FaHeart></p>
               </div>

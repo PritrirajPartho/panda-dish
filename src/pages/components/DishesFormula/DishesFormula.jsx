@@ -27,7 +27,7 @@ const DishesFormula = () => {
         className: "center",
         infinite: true,
         centerPadding: "60px",
-        slidesToShow: 2,
+        slidesToShow: 3,
         swipeToSlide: true,
         afterChange: function(index) {
           console.log(

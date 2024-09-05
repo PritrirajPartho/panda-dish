@@ -32,11 +32,13 @@
 button.slick-arrow.slick-next {
     color: black;
     background-color: orange;
+    right: -10px;
 }
 
 button.slick-arrow.slick-prev {
     color: black;
     background-color: orange;
+    left: -10px;
 }
 
 @tailwind base;
