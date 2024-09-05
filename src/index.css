@@ -29,6 +29,16 @@
 }
 
 
+button.slick-arrow.slick-next {
+    color: black;
+    background-color: orange;
+}
+
+button.slick-arrow.slick-prev {
+    color: black;
+    background-color: orange;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -45,7 +55,7 @@
 /* Please write here your custom components here */
 @layer components{
     .width-control-container{
-        @apply max-w-[1000px] lg:max-w-[1200px] mx-auto
+        @apply max-w-[1000px] lg:max-w-[1200px] mx-auto;
     }
     .bg-video{
         @apply fixed;
@@ -66,10 +76,10 @@
         @apply relative top-[50%] translate-y-[-50%];
     }
     .mobileapp-container{
-        @apply grid grid-cols-2  mt-16 lg:mt-24 lg:mb-40 ;
+        @apply grid grid-cols-2 ;
     }
     .testimonial-container{
-        @apply  flex flex-row justify-center items-center gap-6 ;
+        @apply  flex flex-row justify-center items-center gap-2;
     }
     .review-img-div{
         @apply  overflow-hidden w-[200px] h-[250px];
@@ -81,7 +91,10 @@
         @apply relative overflow-hidden w-full h-[250px];
     }
     .formula-img-div img{
-        @apply absolute top-0 w-full h-full  object-cover object-center hover:scale-125 duration-500;
+        @apply absolute top-0 w-full h-full  rounded-lg object-cover object-center hover:scale-125 duration-500 ;
+    }
+    .slick-next, .slick-arrow{
+        @apply text-black bg-slate-950;
     }
 }
 

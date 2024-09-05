@@ -9,7 +9,7 @@ const{id, img, name, rating, experience, text} = props.testimonial;
 
     return (
       <div>
-         <div className='testimonial-container mr-20 mb-14'>
+         <div className='testimonial-container mr-16'>
             <div>
                <div className='review-img-div'>
                   <img    src={img} alt="" />

@@ -1,11 +1,13 @@
 import React, { useState,useEffect } from 'react';
-// import imgf from '../../../assets/img/person-four.jfif';
 import Slider from "react-slick";
 import DishesFormulaShow from './DishesFormulaShow';
 
+// react-slick stylesheets
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const dishesformula_api = '../../../../public/dishesformula.json';
-// const dishesformula_api = '../../../../public/dishesformula.json';
+
+const dishesformula_api = '/public/dishesformula.json';
 
 
 const DishesFormula = () => {
@@ -25,7 +27,7 @@ const DishesFormula = () => {
         className: "center",
         infinite: true,
         centerPadding: "60px",
-        slidesToShow: 3,
+        slidesToShow: 2,
         swipeToSlide: true,
         afterChange: function(index) {
           console.log(
@@ -36,10 +38,10 @@ const DishesFormula = () => {
 
 
     return (
-        <section className='width-control-container '>
-            <h1 className='text-center mb-16 text-3xl font-poppins font-semibold'>Dishes Formula</h1>
-             <div  className="slider-container gap-6">
-                <Slider {...settings}>
+        <section className='width-control-container mt-[100px]'>
+            <h1 className='text-center mb-[40px] text-3xl font-poppins font-semibold'>Dishes Formula</h1>
+             <div  className="slider-container mx-auto">
+                <Slider className='bg-black' {...settings}>
                    {
                     dishesformula.map(formula => <DishesFormulaShow key={formula.id} formula={formula} ></DishesFormulaShow>)
                    }

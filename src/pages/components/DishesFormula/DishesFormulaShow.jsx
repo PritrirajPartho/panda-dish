@@ -8,7 +8,7 @@ const DishesFormulaShow = (props) => {
     let sliceExpression = expression.slice(0, 20)
     
     return (
-        <div className='overflow-hidden flex flex-col justify-center mr-10 border-2 border-red-500 w-[90%] h-[400px]'>
+        <div className='overflow-hidden flex flex-col justify-center mx-auto w-[90%] h-[400px]'>
             <div>
                 <div className='formula-img-div'>
                    <img src={img} alt="Formula IMG" />

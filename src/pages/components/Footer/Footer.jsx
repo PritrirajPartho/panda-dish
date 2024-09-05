@@ -4,8 +4,8 @@ import logo from "../../../../public/logo.png";
 const Footer = () => {
     return (
     <section className='width-control-container'>
-        <footer className='mt-16 relative bg-white grid grid-cols-4 gap-4 place-items-center'>
-            <div className=''>
+        <footer className='mt-[100px] relative bg-white grid grid-cols-4 gap-4 place-items-center'>
+            <div>
                 <div className='absolute top-0 flex justify-start items-center'>
                     <img className='rounded-xl ' src={logo} alt="" />
                     <h1 className='ml-2 font-poppins text-2xl '>Panda Dish</h1>
