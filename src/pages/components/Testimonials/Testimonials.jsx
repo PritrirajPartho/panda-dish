@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Slider from "react-slick";
 import ShowTestimonials from './ShowTestimonials';
 
-const testimonials_api = '/public/review.json';
+const testimonials_api = './review.json';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-const dishesformula_api = '/public/dishesformula.json';
+const dishesformula_api = './dishesformula.json';
 
 
 const DishesFormula = () => {

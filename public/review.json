@@ -6,7 +6,7 @@
         "rating": 4.5,
         "experience": "Great experience!",
         "text": "Panda-Dish exceeded my expectations! The food was delicious, and the service was top-notch. I'll definitely be back!",
-        "img": "../src/assets/img/person-five.jfif"
+        "img": "https://i.ibb.co/9hYbq1K/person-five.jpg"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "rating": 3.0,
         "experience": "Good food, but slow service",
         "text": "The food at Panda-Dish was good, but the service was slower than I expected. Hopefully, it was just an off day.",
-        "img": "../src/assets/img/person-two.jfif"
+        "img": "https://i.ibb.co/kyXTKFk/person-two.jpg"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "rating": 5.0,
         "experience": "Best meal ever!",
         "text": "Panda-Dish delivered one of the best meals I've had in ages. The flavors were spot on, and everything was cooked to perfection.",
-        "img": "../src/assets/img/person-four.jfif"
+        "img": "https://i.ibb.co/dG0yFcB/person-four.jpg"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "rating": 4.0,
         "experience": "Lovely atmosphere",
         "text": "Panda-Dish offers a lovely dining atmosphere, perfect for a special night out. The food was good, though a bit pricey.",
-        "img": "../src/assets/img/person-three.jfif"
+        "img": "https://i.ibb.co/WGn8gQs/person-three.jpg"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "rating": 2.5,
         "experience": "Disappointed",
         "text": "I was a bit disappointed with my experience at Panda-Dish. The food was average, and the portions were smaller than expected.",
-        "img": "../src/assets/img/person-nine.jfif"
+        "img": "https://i.ibb.co/PMBdjSy/person-nine.jpg"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "rating": 5.0,
         "experience": "Absolutely amazing!",
         "text": "Panda-Dish was absolutely amazing! From the food to the service, everything was perfect. Can't wait to return!",
-        "img": "../src/assets/img/person-eight.jfif"
+        "img": "https://i.ibb.co/WDgwqYZ/person-eight.jpg"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "rating": 3.5,
         "experience": "Good, but not great",
         "text": "Panda-Dish was good, but I expected more based on the reviews. The food was decent, and the service was friendly.",
-        "img": "../src/assets/img/person-seven.jfif"
+        "img": "https://i.ibb.co/fxs0Gny/person-seven.jpg"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "rating": 4.8,
         "experience": "A hidden gem!",
         "text": "Panda-Dish is a hidden gem! The food was fantastic, and the staff was incredibly attentive. Highly recommend!",
-        "img": "../src/assets/img/person-one.jfif"
+        "img": "https://i.ibb.co/fqttm33/person-one.jpg"
       }
 ]
 
