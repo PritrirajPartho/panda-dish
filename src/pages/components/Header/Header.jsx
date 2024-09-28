@@ -11,7 +11,7 @@ return (
   <header className='font-poppins '>
     <section className=" fixed top-0 z-50 bg-white w-full h-[10vw] sm:h-[8vw] md:h-[6vw] lg:h-[5vw]">
       <div className='width-control-container header-element-alignment flex justify-between text-[1.5vw]'>
-          <div className='logo-div flex justify-center items-center'>
+          <div className='flex justify-center items-center'>
             <img  className='rounded-xl' src={logo} alt="Panda-logo"/>
             <h1 className='ml-4'>Panda-Dish</h1>
           </div>
