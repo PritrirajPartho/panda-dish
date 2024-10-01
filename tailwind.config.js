@@ -32,11 +32,13 @@ export default {
         '9xl': '9vw',
       },
       screens: {
-        'sm': '400px',
-        // => @media (min-width: 400px) { ... }
-        'md': '768px',
+        'sm': '420px',
+        // => @media (min-width: 400px) {start tablets breakpoint ... }
+        'md': '600px',
         // => @media (min-width: 768px) { ... }
-        'lg': '992px',
+        'lg': '800px',
+        // => @media (min-width: 768px) { ... }
+        'xl': '990px',
         // => @media (min-width: 992px) { ... }
         },
     dropShadow: {

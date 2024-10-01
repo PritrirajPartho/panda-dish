@@ -18,9 +18,9 @@ const ShowDishes = (props) => {
                  <img className=' object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
 
-              <p className='dish-stock stock font-poppins '>{stock}</p>
+              <p className='dish-stock  font-poppins flex items-center justify-center '>{stock}</p>
 
-              <div className='hide-element grid grid-cols-3 gap-4 absolute transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2'>
+              <div className='hide-element hide-hover-icons'>
                   <p className='background icon-effect'><FaEye></FaEye></p>
                   <p className=' background  icon-effect'><FaShoppingCart></FaShoppingCart></p>
                   <p className='background text-red-500 hover:text-white icon-effect'><FaHeart></FaHeart></p>
@@ -41,10 +41,10 @@ const ShowDishes = (props) => {
                </div>
 
                <div className='font-agdasima'>
-                  <h1 className='text-center text-xl font-bold'>{name}</h1>
+                  <h1 className='text-center text-4xl sm:text-[15px] md:text-xl font-bold'>{name}</h1>
                   <div className='flex justify-center'>
-                     <p className='text-center mt-6  mr-4 text-[20px] font-bold'><span>$</span> <span>{price}</span></p>
-                     <p className='text-center mt-6 text-lg line-through'><span>$</span>{oldprice}</p>
+                     <p className='text-center mt-6  mr-4 text-[20px] sm:text-[25px] font-bold'><span>$</span> <span>{price}</span></p>
+                     <p className='text-center mt-6 text-[10px] sm:text-[15px] line-through decoration-red-500'><span>$</span>{oldprice}</p>
                   </div>
                </div>
            </div>

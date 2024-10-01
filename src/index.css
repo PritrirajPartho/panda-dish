@@ -14,7 +14,6 @@
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
-    /* box-shadow: 0px 10px 1px #fdba74, 0 10px 20px rgba(204, 204, 204, 1); */
 }
 .card-section:hover{
     box-shadow:  #fdba74 0px 10px 20px, #FB923C  0px 6px 6px;
@@ -27,7 +26,6 @@
 
 .hide-element{
     visibility: hidden;
-    font-size: 1vw;
 }
 
 .card-section:hover .hide-element{
@@ -68,10 +66,10 @@ button.slick-arrow.slick-prev {
         @apply fixed;
     }
     .responsive-grid-dishes{
-        @apply mt-[50px] mx-8 grid grid-cols-1  gap-8 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4  justify-center;
+        @apply mt-[50px] mx-8 grid grid-cols-1  gap-8 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-3  xl:grid xl:grid-cols-4 justify-center;
     }
     .dish-stock {
-        @apply absolute top-3 right-4 z-20 text-white text-center text-lg bg-orange-500 px-2 py-1 rounded-[15px_50px] w-[80px] h-[30px];
+        @apply absolute top-3 right-4 z-20 text-white text-center text-3xl sm:text-2xl md:text-lg bg-orange-500 px-2 py-1 rounded-[15px_50px] w-[80px] h-[30px];
     }
     .background{
         @apply  bg-white ring-4 ring-orange-500 w-10 h-10 flex justify-center items-center rounded-full;
@@ -80,10 +78,13 @@ button.slick-arrow.slick-prev {
         @apply hover:scale-110 duration-75 hover:bg-orange-500 hover:ring-white;
     }
     .responsive-active-link-border{
-        @apply border-b-2 border-blue-800 sm:border-b-4 sm:border-rose-500
+        @apply border-b-2 border-black sm:border-b-4 sm:border-black md:border-b-8 md:border-black
     }
     .mobileapp-container{
         @apply grid grid-cols-2 ;
+    }
+    .hide-hover-icons{
+     @apply text-4xl sm:text-2xl md:text-xl grid grid-cols-3 gap-12 place-items-center absolute transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2
     }
     .testimonial-container{
         @apply  flex flex-row justify-center items-center gap-2;
