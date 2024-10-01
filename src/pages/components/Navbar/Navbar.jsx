@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import logo  from '../../../../public/logo.png';
 import { GiHamburgerMenu } from "react-icons/gi";
-import Tooltips from '../Tooltip/Tooltips';
 import { FaHeart, FaShoppingCart, FaUser } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -13,16 +12,16 @@ const Navbar = () => {
     }
     
     return (
-    <section className='h-full w-full'>
+    <section className='fixed top-0 z-30 max-h-[4em] sm:max-h-[5em] w-full bg-white'>
         <nav className='px-2 py-3 md:px-8'>
             <div className='flex justify-between items-center'>
                 <div className='flex items-center '>
-                    <img src={logo} className='rounded-xl' alt="Panda-logo" />
-                    <h1 className='ml-2'>Panda-dish</h1>
+                    <img src={logo} className='max-h-[2em] rounded-xl' alt="Panda-logo" />
+                    <h1 className='ml-2 text-4xl sm:text-3xl md:text-xl font-semibold'>Panda-dish</h1>
                 </div>
                 <div className='sm:hidden'>
                     <button className='mt-2' onClick={() => toggleMenu()}>
-                        <GiHamburgerMenu></GiHamburgerMenu>
+                        <GiHamburgerMenu className='max-h-full'></GiHamburgerMenu>
                     </button>
                 </div>
                 <ul className='hidden sm:flex'>

@@ -17,7 +17,7 @@ export default {
         white: '#fafafa',
        },
        fontSize: {
-        xs: '0.2',
+        xs: '0.2vw',
         sm: '0.3vw',
         base: '0.5vw',
         lg: '1vw',
@@ -27,6 +27,9 @@ export default {
         '4xl': '4vw',
         '5xl': '5vw',
         '6xl': '6vw',
+        '7xl': '7vw',
+        '8xl': '8vw',
+        '9xl': '9vw',
       },
       screens: {
         'sm': '400px',

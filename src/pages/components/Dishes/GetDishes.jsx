@@ -29,15 +29,15 @@ const GetDishes = () => {
 
 
     return (
-    <div className='mt-[100px] width-control-container'>
-       <h1 className='mt-8  mb-4  text-3xl text-center font-poppins'>Our Dishes</h1>
+    <div className='mt-[35px]  sm:mt-[60px]  md:mt-[100px] width-control-container'>
+       <h1 className='mt-8  mb-4  text-5xl  text-center font-poppins'>Our Dishes</h1>
 
        <div className='bg-orange-50'>
-            <div className='flex justify-center text-2xl'>
-                <div className='font-poppins border-2 border-black-200 flex justify-between w-[55%] mt-10'>
-                    <button onClick={ ()=> activeTab(1)}   style={{borderBottom: tab === 1 ? "4px solid red" : ""}}>Generall</button>
-                    <button onClick={ ()=> activeTab(2)}   style={{borderBottom: tab === 2 ? "4px solid red" : ""}}>Popular</button>
-                    <button onClick={ ()=> activeTab(3)}   style={{borderBottom: tab === 3 ? "4px solid red" : ""}}>Soup &amp; Sauce</button>
+            <div className='flex justify-center text-3xl'>
+                <div className='font-poppins  border-2  flex justify-between w-[55%] mt-10'>
+                    <button onClick={ ()=> activeTab(1)}   className={tab === 1 ? 'responsive-active-link-border' : ''}  >Generall</button>
+                    <button onClick={ ()=> activeTab(2)}   className={tab === 2 ? 'responsive-active-link-border' : ''}>Popular</button>
+                    <button onClick={ ()=> activeTab(3)}   className={tab === 3 ? 'responsive-active-link-border' : ''}>Soup &amp; Sauce</button>
                 </div>
             </div>
 
