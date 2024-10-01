@@ -33,9 +33,9 @@ const GetDishes = () => {
        <h1 className='mt-8  mb-4  text-5xl  text-center font-poppins'>Our Dishes</h1>
 
        <div className='bg-orange-50'>
-            <div className='flex justify-center text-3xl'>
-                <div className='font-poppins  border-2  flex justify-between w-[55%] mt-10'>
-                    <button onClick={ ()=> activeTab(1)}   className={tab === 1 ? 'responsive-active-link-border' : ''}  >Generall</button>
+            <div className='flex justify-center  text-3xl sm:text-2xl'>
+                <div className='font-poppins flex justify-between w-[55%] mt-10'>
+                    <button onClick={ ()=> activeTab(1)}   className={tab === 1 ? 'responsive-active-link-border' : ''} >Generall</button>
                     <button onClick={ ()=> activeTab(2)}   className={tab === 2 ? 'responsive-active-link-border' : ''}>Popular</button>
                     <button onClick={ ()=> activeTab(3)}   className={tab === 3 ? 'responsive-active-link-border' : ''}>Soup &amp; Sauce</button>
                 </div>
