@@ -35,14 +35,22 @@
 
 button.slick-arrow.slick-next {
     color: black;
-    background-color: orange;
+    background-color: red;
     right: -10px;
+    z-index: 10;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px
 }
 
 button.slick-arrow.slick-prev {
     color: black;
-    background-color: orange;
+    background-color: red;
     left: -10px;
+    z-index: 20;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px
 }
 
 @tailwind base;
@@ -87,10 +95,10 @@ button.slick-arrow.slick-prev {
      @apply text-4xl sm:text-2xl md:text-xl grid grid-cols-3 gap-12 place-items-center absolute transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2
     }
     .testimonial-container{
-        @apply  flex flex-row justify-center items-center gap-2;
+        @apply    flex flex-col sm:flex sm:flex-col  md:flex md:flex-row justify-center items-center gap-2;
     }
     .review-img-div{
-        @apply  overflow-hidden w-[200px] h-[250px];
+        @apply  overflow-hidden w-[100px] h-[120px]  sm:w-[200px] sm:h-[250px];
     }
     .review-img-div img{
         @apply w-full h-full  object-cover object-top;

@@ -36,7 +36,7 @@ const Testimonilas = () => {
     return (
     <section className='width-control-container'>
       <h1 className='text-center mb-[40px] text-3xl font-poppins font-bold'>Testimonials</h1>
-      <div>
+      <div className=''>
         <Slider {...settings} >
             {
               testimonials.map(testimonial => 
