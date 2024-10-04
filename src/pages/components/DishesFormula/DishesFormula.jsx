@@ -24,22 +24,47 @@ const DishesFormula = () => {
 
     // slider making with react-slick
     const settings = {
-        className: "center",
-        infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 2,
-        swipeToSlide: true,
-        afterChange: function(index) {
-          console.log(
-            `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-          );
+      className: "center",
+      infinite: true,
+      centerPadding: "60px",
+      slidesToShow: 3,
+      swipeToSlide: true,
+      afterChange: function(index) {
+        console.log(
+          `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+        );
+      },
+      responsive: [
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
-      };
+      ]
+    };
 
 
     return (
         <section className='width-control-container mt-[50px] sm:mt-[70px] md:mt-[100px]'>
-            <h1 className='text-center mb-[40px] text-3xl font-poppins font-semibold'>Dishes Formula</h1>
+            <h1 className='text-center mb-[40px] text-5xl md:text-4xl lg:text-3xl font-poppins font-semibold'>Dishes Formula</h1>
              <div  className="slider-container mx-auto">
                 <Slider className='bg-black' {...settings}>
                    {

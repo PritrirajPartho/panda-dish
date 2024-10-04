@@ -38,7 +38,7 @@ export default {
         // => @media (min-width: 768px) { ... }
         'lg': '800px',
         // => @media (min-width: 768px) { ... }
-        'xl': '990px',
+        'xl': '1050px',
         // => @media (min-width: 992px) { ... }
         },
     dropShadow: {

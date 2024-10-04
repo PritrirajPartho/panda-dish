@@ -14,7 +14,7 @@ const Testimonilas = () => {
 
     const[testimonials, setTestimonials] = useState([])
 
-    // load testimonials or review data
+// load testimonials or review data
     useEffect(() => {
         fetch(testimonials_api)
         .then(res => res.json())
@@ -22,6 +22,7 @@ const Testimonilas = () => {
         .catch(err => console.log(err))
     }, []);
 
+// react slick variable and customaization is available
     const settings = {
       className: "center",
       infinite: true,
@@ -35,7 +36,7 @@ const Testimonilas = () => {
       },
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1300,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -44,7 +45,7 @@ const Testimonilas = () => {
           }
         },
         {
-          breakpoint: 950,
+          breakpoint: 1050,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -63,7 +64,7 @@ const Testimonilas = () => {
 
     return (
     <section className='width-control-container'>
-      <h1 className='text-center text-4xl mb-[40px] mt-5 md:mt-10  font-poppins font-bold'>Testimonials</h1>
+      <h1 className='text-center text-5xl md:text-4xl lg:text-3xl mb-[40px] mt-5 md:mt-10  font-poppins font-bold'>Testimonials</h1>
       <div>
         <Slider {...settings} >
             {

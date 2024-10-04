@@ -8,15 +8,15 @@ const DishesFormulaShow = (props) => {
     let sliceExpression = expression.slice(0, 30)
     
     return (
-        <div className='relative overflow-hidden flex flex-col justify-center mx-auto w-[90%] h-[400px]'>
-            <div className='relative '>
-                <div className='absolute -bottom-14 formula-img-div'>
+        <div className='overflow-hidden flex flex-col justify-center px-8'>
+            <div>
+                <div className='formula-img-div'>
                    <img src={img} alt="Formula IMG" />
                 </div>
             </div>
-            <div className='absolute top-64 mt-6 px-2'>
-                <p className='text-left font-poppins text-xl font-semibold hover:text-orange-400'>{sliceExpression}...</p>
-                <p className='relative text-left font-poppins text-xl mt-2'>{sliceText}......
+            <div>
+                <p className='mt-4 text-left font-poppins text-4xl md:text-2xl xl:text-xl font-semibold hover:text-orange-400'>{sliceExpression}...</p>
+                <p className='mt-2 text-left font-poppins text-4xl md:text-2xl xl:text-xl'>{sliceText}......
                    <button className='text-blue-500'>Read more</button>
                 </p>
             </div>      
