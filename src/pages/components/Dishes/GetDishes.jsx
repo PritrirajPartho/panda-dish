@@ -32,7 +32,7 @@ const GetDishes = () => {
     <div className='mt-[35px]  sm:mt-[60px]  md:mt-[100px] width-control-container'>
        <h1 className='mt-8  mb-4  text-5xl  text-center font-poppins'>Our Dishes</h1>
 
-       <div className='bg-orange-50'>
+       <div className='bg-gradient-to-r from-orange-50 to-orange-200'>
             <div className='flex justify-center  text-3xl sm:text-2xl'>
                 <div className='font-poppins flex justify-between w-[55%] mt-10'>
                     <button onClick={ ()=> activeTab(1)}   className={tab === 1 ? 'responsive-active-link-border' : ''} >Generall</button>

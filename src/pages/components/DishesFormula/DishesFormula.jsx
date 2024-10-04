@@ -27,7 +27,7 @@ const DishesFormula = () => {
         className: "center",
         infinite: true,
         centerPadding: "60px",
-        slidesToShow: 3,
+        slidesToShow: 2,
         swipeToSlide: true,
         afterChange: function(index) {
           console.log(
@@ -38,7 +38,7 @@ const DishesFormula = () => {
 
 
     return (
-        <section className='width-control-container mt-[100px]'>
+        <section className='width-control-container mt-[50px] sm:mt-[70px] md:mt-[100px]'>
             <h1 className='text-center mb-[40px] text-3xl font-poppins font-semibold'>Dishes Formula</h1>
              <div  className="slider-container mx-auto">
                 <Slider className='bg-black' {...settings}>
