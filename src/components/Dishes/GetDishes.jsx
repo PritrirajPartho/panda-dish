@@ -30,7 +30,7 @@ const GetDishes = () => {
 
     return (
     <div className='mt-[35px]  sm:mt-[60px]  md:mt-[100px] width-control-container'>
-       <h1 className='mt-8  mb-4 text-5xl md:text-4xl lg:text-3xl  text-center font-poppins'>Our Dishes</h1>
+       <h1 className='mt-8  mb-4 text-5xl md:text-4xl lg:text-3xl  text-center font-poppins font-bold'>Our Dishes</h1>
 
        <div className='bg-gradient-to-r from-orange-50 to-orange-200'>
             <div className='flex justify-center  text-3xl sm:text-2xl'>

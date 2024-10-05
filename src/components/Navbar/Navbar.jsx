@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center'>
                 <div className='flex items-center '>
                     <img src={logo} className='max-h-[2em] rounded-xl' alt="Panda-logo" />
-                    <h1 className='ml-2 text-4xl sm:text-3xl md:text-xl font-semibold'>Panda-dish</h1>
+                    <h1 className='ml-2 text-5xl sm:text-3xl md:text-2xl lg:text-xl font-semibold'>Panda-dish</h1>
                 </div>
                 <div className='sm:hidden'>
                     <button className='mt-2' onClick={() => toggleMenu()}>

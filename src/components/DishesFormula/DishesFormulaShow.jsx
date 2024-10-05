@@ -15,8 +15,8 @@ const DishesFormulaShow = (props) => {
                 </div>
             </div>
             <div>
-                <p className='mt-4 text-left font-poppins text-4xl md:text-2xl xl:text-xl font-semibold hover:text-orange-400'>{sliceExpression}...</p>
-                <p className='mt-2 text-left font-poppins text-4xl md:text-2xl xl:text-xl'>{sliceText}...
+                <p className='mt-4 text-left font-poppins text-4xl md:text-2xl lg:text-xl font-semibold hover:text-orange-400'>{sliceExpression}...</p>
+                <p className='mt-2 text-left font-poppins text-4xl md:text-2xl lg:text-xl'>{sliceText}...
                    <button className='text-blue-500'>Read more</button>
                 </p>
             </div>      

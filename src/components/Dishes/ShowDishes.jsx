@@ -14,8 +14,8 @@ const ShowDishes = (props) => {
     <section className='card-section mb-16 hover:scale-105 duration-500'>
         <div className='flex flex-col bg-white'>
            <div className='relative card-img'>
-              <div className='z-0'>
-                 <img className=' object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
+              <div className='z-0 '>
+                 <img className='object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
 
               <p className='dish-stock  font-poppins flex items-center justify-center '>{stock}</p>
@@ -41,7 +41,7 @@ const ShowDishes = (props) => {
                </div>
 
                <div className='font-agdasima'>
-                  <h1 className='text-center text-4xl sm:text-[15px] md:text-xl font-bold'>{name}</h1>
+                  <h1 className='text-center text-[15px] sm:text-[15px] md:text-2xl lg:text-xl  font-bold'>{name}</h1>
                   <div className='flex justify-center'>
                      <p className='text-center mt-6  mr-4 text-[20px] sm:text-[25px] font-bold'><span>$</span> <span>{price}</span></p>
                      <p className='text-center mt-6 text-[10px] sm:text-[15px] line-through decoration-red-500'><span>$</span>{oldprice}</p>
