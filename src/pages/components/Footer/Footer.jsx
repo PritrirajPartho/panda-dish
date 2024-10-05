@@ -4,7 +4,7 @@ import logo from "../../../../public/logo.png";
 const Footer = () => {
     return (
     <section className='width-control-container text-center text-3xl sm:text-2xl md:text-xl sm:text-left '>
-        <footer className='mt-[100px] bg-red-400 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center  md:px-8 py-6'>
+        <footer className='mt-[100px] bg-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center px-4  sm:px-8 py-6'>
             <div className='sm:w-[100px] md:w-full'>
                 <div className='mb-2 sm:mt-8 md:mt-0 md:mb-4 flex flex-row justify-center sm:justify-start  md:justify-cetner md:items-center'>
                     <img className='rounded-xl w-[15%]' src={logo} alt="" />

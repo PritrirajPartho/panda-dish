@@ -63,7 +63,7 @@ const DishesFormula = () => {
 
 
     return (
-        <section className='width-control-container mt-[50px] sm:mt-[70px] md:mt-[100px]'>
+        <section className='width-control-container mt-[50px] sm:mt-[70px] md:mt-[100px] px-4 md:px-8'>
             <h1 className='text-center mb-[40px] text-5xl md:text-4xl lg:text-3xl font-poppins font-semibold'>Dishes Formula</h1>
              <div  className="slider-container mx-auto">
                 <Slider className='bg-black' {...settings}>

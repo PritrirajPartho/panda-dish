@@ -63,7 +63,7 @@ const Testimonilas = () => {
     };
 
     return (
-    <section className='width-control-container'>
+    <section className='width-control-container px-4 md:px-8'>
       <h1 className='text-center text-5xl md:text-4xl lg:text-3xl mb-[40px] mt-5 md:mt-10  font-poppins font-bold'>Testimonials</h1>
       <div>
         <Slider {...settings} >

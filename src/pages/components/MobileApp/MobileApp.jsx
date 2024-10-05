@@ -5,7 +5,7 @@ import googleImg from '../../../../public/play-store.webp';
 
 const MobileApp = () => {
     return (
-        <section className='width-control-container'>
+        <section className='width-control-container px-4 md:px-8'>
            <div className='mobileapp-container mt-[50px] sm:mt-[70px] md:mt-[100px]'>
                <div className='lg:mt-16 px-4'>
                     <h1 className='text-3xl md:text-2xl text-center mt-4 md:mt-0 font-bold font-poppins'>Make your Life easier with our mobile app</h1>
