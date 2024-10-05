@@ -1,7 +1,7 @@
 import React from 'react';
-import mobildImg from '../../../../public/mobile-app-three.png';
-import appleImg from '../../../../public/app-store.webp';
-import googleImg from '../../../../public/play-store.webp';
+import mobildImg from '../../../public/mobile-app-three.png';
+import appleImg from '../../../public/app-store.webp';
+import googleImg from '../../../public/play-store.webp';
 
 const MobileApp = () => {
     return (

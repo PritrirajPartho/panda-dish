@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo  from '../../../../public/logo.png';
+import logo  from '../../../public/logo.png';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaHeart, FaShoppingCart, FaUser } from 'react-icons/fa';
 
