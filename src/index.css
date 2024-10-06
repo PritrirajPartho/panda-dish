@@ -16,11 +16,6 @@
     box-shadow:  #fdba74 0px 10px 20px, #FB923C  0px 6px 6px;
 }
 
-.card-section:hover .stock{
-    transform: rotate3d(0, 0, 1, 360deg);
-    transition: transform 1s;
-}
-
 .hide-element{
     visibility: hidden;
 }
@@ -126,6 +121,9 @@ button.slick-arrow.slick-prev {
     }
     .dish-stock {
         @apply absolute top-3 right-4 z-20 text-white text-center text-[13px] md:text-2xl lg:text-[15px] bg-orange-500 px-2 py-1 rounded-[15px_50px] w-[80px] h-[30px];
+    }
+    .card-section:hover .stock-swing{
+        @apply  rotate-360 transition-transform duration-1000;
     }
     .background{
         @apply  bg-white ring-4 ring-orange-500 w-10 h-10 flex justify-center items-center rounded-full;

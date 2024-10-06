@@ -18,7 +18,7 @@ const ShowDishes = (props) => {
                  <img className='object-cover min-w-full h-[30vh]' src={img} alt="dish-img" />
               </div>
 
-              <p className='dish-stock  font-poppins flex items-center justify-center '>{stock}</p>
+              <p className='dish-stock stock-swing font-poppins flex items-center justify-center '>{stock}</p>
 
               <div className='hide-element hide-hover-icons'>
                   <p className='background icon-effect'><FaEye></FaEye></p>

@@ -50,6 +50,9 @@ export default {
       poppins:  ['Poppins', 'sans-serif'],
       agdasima: ['Agdasima','sans-serif'],
       agufina:  ['Aguafina Script','cursive']
+    },
+    rotate: {
+      '360': '360deg',
     }
   },
 

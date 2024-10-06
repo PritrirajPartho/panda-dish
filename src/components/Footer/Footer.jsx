@@ -11,8 +11,8 @@ const Footer = () => {
                     <h1 className='ml-2 font-poppins  mt-1 sm:mt-0 font-bold'>Panda Dish</h1>
                 </div>
                 <div className='font-agdasima'>
-                  <p className='mb-2'>Alhamra-zindabazar, Sylhet, BD</p>
-                  <p className='mb-2'><strong>Email:</strong> panda@foods.com</p>
+                  <p className='mb-2'>Sylhet, Bangladesh</p>
+                  <p className='mb-2'><strong>Email:</strong> panda@dishes.com</p>
                   <p className='mb-2'><strong>Phone:</strong> +01764676589</p>
                 </div>
             </div>

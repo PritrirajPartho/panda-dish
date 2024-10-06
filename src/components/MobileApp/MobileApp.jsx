@@ -10,7 +10,7 @@ const MobileApp = () => {
                <div className='lg:mt-16 px-4'>
                     <h1 className='text-3xl md:text-2xl text-center mt-4 md:mt-0 font-bold font-poppins'>Make your Life easier with our mobile app</h1>
                     <p className='text-3xl md:text-xl mt-4 text-center font-agdasima'>Food is our common ground, a universal experience.So, try Panda-dish on the mobile app.</p>
-                    <div className=' mt-6 flex justify-center gap-6 md:gap-12'>
+                    <div className='mt-6 ms-6 md:gap-12 flex justify-center'>
                         <a className='cursor-pointer' href='https://www.apple.com/store'  target="_blank"><img className='rounded w-[80%]' src={appleImg} alt="Apple" /></a>
                         <a className='cursor-pointer' href='https://play.google.com/store/games?hl=en' target="_blank"><img className='rounded w-[80%]' src={googleImg} alt="Google" /></a>
                     </div>
