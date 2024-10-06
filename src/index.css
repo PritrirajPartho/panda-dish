@@ -6,11 +6,6 @@
     padding: 0;
 }        
 
-.body{
-    overflow-x: hidden;
-    width: 100%;
-}
-
 
 .card-section:hover .card-hover-structure{
     border-right: 2px solid black;
